@@ -1,0 +1,11 @@
+{
+  "package": "@datav/standard",
+  "version": "1.11.7-alpha.2",
+  "builtOn": "2026-10-26",
+  "sourceCommit": "ad2f7bcccae6aace9584f8feb8c2b3d9acc88edc",
+  "includesWorkingTreeChanges": true,
+  "task": "A5-1497",
+  "sha256": "d2a5fd2793fdb97403507c09557d5dda0d34418f43e5d943409b59d7d7026841",
+  "bytes": 2621222,
+  "global": "ThsDataVStandardChart"
+}
