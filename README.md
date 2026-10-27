@@ -9,7 +9,13 @@ Standard Chart full browser bundle with all 16 preset themes.
 Global: `ThsDataVStandardChart`. Includes ECharts and all existing preset families:
 Mobile, THS, Lumi, AInvest App, AInvest PC, AInvest Terminal, PC, Wencai, and business treemap.
 
-Choose a theme explicitly, for example:
+Omitting the theme selects AInvest Terminal light by default. All 16 themes remain available.
+
+```js
+ThsDataVStandardChart.init(element); // ainvest-terminal-pc-light
+```
+
+Choose another theme explicitly, for example:
 
 ```js
 ThsDataVStandardChart.init(element, ThsDataVStandardChart.PRESET_THEME.AINVEST_PC_LIGHT);
