@@ -26,13 +26,14 @@
   ],
   "themeCount": 16,
   "global": "ThsDataVStandardChart",
-  "sha256": "920b115fdd895f97337d71ceb0c730996df118b69cdf196ec1f328a2d24625f6",
-  "bytes": 2632213,
-  "buildSha256": "ff09f3e0cf9fcb64d1d8ab1d19d206a4326d91218b8bb21d9004592aa4f20432",
+  "sha256": "b066648daa52bd72d28780ee8ae286c92a20f01215af6bff2ab4e92d55b7b454",
+  "bytes": 2635373,
+  "buildSha256": "244883b9bd99f8280ab2fcb9474dc6d381ab7c8cb4cac7f0bd21e8bb53a98c03",
   "publicationTransform": "Remove sourceMappingURL comment only",
   "themeNameAliases": {},
   "terminalCompactLayout": true,
-  "verification": "All 16 preset names registered at runtime; targeted chart regressions recorded locally",
+  "verification": "16 themes registered; 204 fixture renders; five compatibility unit regressions; axis cards 20/30 series and iframe payload verified. Item/followMouse semantics preserved; actual Aime parent not accessible.",
+  "tooltipScope": "Only native axis cards with pointer; preserve native PC item and horizontal followMouse behavior",
   "releaseBranch": "main",
   "releaseAuthorization": "User explicitly requested direct main update"
 }
