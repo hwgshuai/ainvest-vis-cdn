@@ -26,15 +26,15 @@
   ],
   "themeCount": 16,
   "global": "ThsDataVStandardChart",
-  "sha256": "54dbc5ebcafea9faa5b80d293779731c63963f1c920ede724ecc49af7903a37e",
+  "sha256": "b066648daa52bd72d28780ee8ae286c92a20f01215af6bff2ab4e92d55b7b454",
   "bytes": 2635373,
-  "buildSha256": "8dc59dc71dadd9561299f9a926b24c3bbc1a20eb1bb0319bfd431fd71da8bf61",
+  "buildSha256": "b066648daa52bd72d28780ee8ae286c92a20f01215af6bff2ab4e92d55b7b454",
   "publicationTransform": "Remove sourceMappingURL comment only",
   "themeNameAliases": {},
   "terminalCompactLayout": true,
   "verification": "16 themes registered; 204 fixture renders; five compatibility unit regressions; axis cards 20/30 series and iframe payload verified. Item/followMouse semantics preserved; actual Aime parent not accessible.",
   "tooltipScope": "Only native axis cards with pointer; preserve native PC item and horizontal followMouse behavior",
-  "dragVerification": "PC and Terminal light/dark: 80 actual drag release cases passed; normal/outside/missing mouseup/blur",
+  "dragScope": "Terminal only; PC frozen. Restored exact previously approved CDN bytes.",
   "releaseBranch": "main",
   "releaseAuthorization": "User explicitly requested direct main update"
 }
