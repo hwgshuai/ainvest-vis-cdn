@@ -1,27 +1,29 @@
 # AInvest visualization CDN assets
 
-Terminal-only Standard Chart browser bundle, including the current A5-1497 working tree fixes.
-
-## Browser usage
+Standard Chart full browser bundle with all 16 preset themes.
 
 ```html
 <script src="https://cdn.jsdmirror.com/gh/hwgshuai/ainvest-vis-cdn@main/aime/vis-skill-assets/standardchart/bundle.umd.min.js"></script>
 ```
 
-Browser global: `ThsDataVStandardChart`. The bundle includes ECharts and supports UMD/browser loading.
+Global: `ThsDataVStandardChart`. Includes ECharts and all existing preset families:
+Mobile, THS, Lumi, AInvest App, AInvest PC, AInvest Terminal, PC, Wencai, and business treemap.
 
-The existing `@main` URL is retained. Refresh its JSDMirror cache after publishing and verify the response SHA-256 against manifest.json.
+Choose a theme explicitly, for example:
 
-Build metadata and SHA-256: [manifest.json](aime/vis-skill-assets/standardchart/manifest.json).
-
-Built from the local standard_chart checkout, including uncommitted A5-1497 fixes; sourceCommit is its base commit, not a claim of a clean source tree. Only distribution assets are published here. No source maps are included.
-
-## Terminal-only distribution (2026-10-27)
-
-Only `ainvest-terminal-pc-light` and `ainvest-terminal-pc-dark` are registered. `init(container)` defaults to Terminal light. For compatibility, the old init theme strings `ainvest-pc-light` and `ainvest-pc-dark` select the corresponding Terminal theme. Other theme implementations shared internally by Terminal are implementation dependencies, not separately registered themes.
-
-Preferred URL:
-
-```text
-https://cdn.jsdmirror.com/gh/hwgshuai/ainvest-vis-cdn@main/aime/vis-skill-assets/standardchart/bundle.umd.min.js
+```js
+ThsDataVStandardChart.init(element, ThsDataVStandardChart.PRESET_THEME.AINVEST_PC_LIGHT);
+ThsDataVStandardChart.init(element, ThsDataVStandardChart.PRESET_THEME.AINVEST_TERMINAL_PC_LIGHT);
 ```
+
+Theme names retain their own meanings: `ainvest-pc-light` selects AInvest PC;
+`ainvest-terminal-pc-light` selects Terminal. Terminal retains compact distribution sizing.
+The optional existing `bundle.terminal.min.js` file remains a separate Terminal-only build;
+use `bundle.umd.min.js` for the complete theme set.
+
+Build metadata, theme list, file size and SHA-256: [manifest.json](aime/vis-skill-assets/standardchart/manifest.json).
+Only distribution assets are published. No source maps or credentials are included.
+Refresh the exact CDN file after publishing and compare downloaded bytes to the manifest.
+
+Normal release workflow is test branch acceptance followed by promotion of identical bytes
+to main. This release updates main directly at the user's explicit request.
