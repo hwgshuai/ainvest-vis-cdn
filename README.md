@@ -5,12 +5,12 @@ Terminal-only Standard Chart browser bundle, including the current A5-1497 worki
 ## Browser usage
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/hwgshuai/ainvest-vis-cdn@main/aime/vis-skill-assets/standardchart/bundle.umd.min.js"></script>
+<script src="https://cdn.jsdmirror.com/gh/hwgshuai/ainvest-vis-cdn@main/aime/vis-skill-assets/standardchart/bundle.umd.min.js"></script>
 ```
 
 Browser global: `ThsDataVStandardChart`. The bundle includes ECharts and supports UMD/browser loading.
 
-For rollout, replace `@main` with the asset commit SHA to avoid stale CDN caches. The same path works with `https://cdn.jsdmirror.com/gh/`.
+The existing `@main` URL is retained. Refresh its JSDMirror cache after publishing and verify the response SHA-256 against manifest.json.
 
 Build metadata and SHA-256: [manifest.json](aime/vis-skill-assets/standardchart/manifest.json).
 

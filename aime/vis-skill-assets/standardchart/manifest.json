@@ -5,8 +5,8 @@
   "sourceCommit": "ad2f7bcccae6aace9584f8feb8c2b3d9acc88edc",
   "includesWorkingTreeChanges": true,
   "task": "A5-1497",
-  "sha256": "17b39d57d061ef465a2dd49fa780ebc3a813047a5ed700994e69e805721c6fd3",
-  "bytes": 2378923,
+  "sha256": "a43528c20812bf5799c824a1b3091f9f83e9d2526b06e75ab43f480aff7cb1a5",
+  "bytes": 2389752,
   "global": "ThsDataVStandardChart",
   "distribution": "terminal-only",
   "themes": [
@@ -17,5 +17,8 @@
   "legacyInitThemeAliases": {
     "ainvest-pc-light": "ainvest-terminal-pc-light",
     "ainvest-pc-dark": "ainvest-terminal-pc-dark"
-  }
+  },
+  "auditedBuildSha256": "3ec48a9578a3591417095eb7420b527c973aa6d5ebdf41a84cba3d3a2898d317",
+  "publicationTransform": "Remove sourceMappingURL only; no runtime code changes",
+  "acceptance": "34 charts in light/dark; direct-bundle HTML; A5-1497"
 }
