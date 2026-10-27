@@ -1,11 +1,21 @@
 {
   "package": "@datav/standard",
   "version": "1.11.7-alpha.2",
-  "builtOn": "2026-10-26",
+  "builtOn": "2026-10-27",
   "sourceCommit": "ad2f7bcccae6aace9584f8feb8c2b3d9acc88edc",
   "includesWorkingTreeChanges": true,
   "task": "A5-1497",
-  "sha256": "d2a5fd2793fdb97403507c09557d5dda0d34418f43e5d943409b59d7d7026841",
-  "bytes": 2621222,
-  "global": "ThsDataVStandardChart"
+  "sha256": "17b39d57d061ef465a2dd49fa780ebc3a813047a5ed700994e69e805721c6fd3",
+  "bytes": 2378923,
+  "global": "ThsDataVStandardChart",
+  "distribution": "terminal-only",
+  "themes": [
+    "ainvest-terminal-pc-light",
+    "ainvest-terminal-pc-dark"
+  ],
+  "defaultTheme": "ainvest-terminal-pc-light",
+  "legacyInitThemeAliases": {
+    "ainvest-pc-light": "ainvest-terminal-pc-light",
+    "ainvest-pc-dark": "ainvest-terminal-pc-dark"
+  }
 }
