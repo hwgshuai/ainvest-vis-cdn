@@ -1,14 +1,14 @@
 {
   "package": "@datav/standard",
-  "verification": "Production build passed; 34 targeted tests passed; local Terminal light/dark dual panels retain width, all 12 Voronoi name/value labels visible and inside canvas at 14/12px; non-Terminal baseline implementation retained; external tooltip bridge removed from acceptance HTML",
+  "verification": "Production build passed; 20 isolation tests passed; browser checks for all five dynamic charts in Terminal light/dark confirm full-width rail and visible handle endpoints; PC baseline inset and operation button positions retained",
   "themeCount": 18,
-  "sha256": "bc2a55950a7af30e3138a174826fc7705c2899486a9f3002b54bd98324eed5a2",
+  "sha256": "0510af63940116fca92f72ec3ed57c27e692c46fdb2a6586abcdcb6a2774f372",
   "distribution": "all-themes",
-  "bytes": 2682124,
+  "bytes": 2682823,
   "defaultTheme": "ainvest-terminal-pc-light",
   "sourceBase": "9ddf7a0e525ee69aacde9238f7ca3a383c62c87a",
   "task": "A5-1497",
-  "terminalSource": "Terminal-only legend/timeline isolation, dual frame grid preservation and reference Voronoi scaling",
+  "terminalSource": "Terminal-only rail axis width expansion, retaining prior scoped dual-bar and Voronoi fixes",
   "builtOn": "2026-10-29",
   "includesWorkingTreeChanges": true,
   "nonTerminalSource": "09bbd66da09cfd6719ddbc91eb9a5d508b9a46bd"
