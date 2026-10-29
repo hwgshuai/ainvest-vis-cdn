@@ -1,14 +1,14 @@
 {
   "package": "@datav/standard",
-  "verification": "Production build passed; 199 non-Terminal theme files match A5-1376; 58 tests passed, 6 retained legacy Terminal tests failed; no full visual acceptance claimed",
+  "verification": "Production build passed; 34 targeted tests passed; local Terminal light/dark dual panels retain width, all 12 Voronoi name/value labels visible and inside canvas at 14/12px; non-Terminal baseline implementation retained; external tooltip bridge removed from acceptance HTML",
   "themeCount": 18,
-  "sha256": "c70d99c64e12baceb8e9f44ef207ee5ceab3168f82585673421640482a5ee5b1",
+  "sha256": "bc2a55950a7af30e3138a174826fc7705c2899486a9f3002b54bd98324eed5a2",
   "distribution": "all-themes",
-  "bytes": 2675235,
+  "bytes": 2682124,
   "defaultTheme": "ainvest-terminal-pc-light",
   "sourceBase": "9ddf7a0e525ee69aacde9238f7ca3a383c62c87a",
   "task": "A5-1497",
-  "terminalSource": "Verified CDN source restored, PC compatibility exports relocated into Terminal; registry includes 18 presets",
+  "terminalSource": "Terminal-only legend/timeline isolation, dual frame grid preservation and reference Voronoi scaling",
   "builtOn": "2026-10-29",
   "includesWorkingTreeChanges": true,
   "nonTerminalSource": "09bbd66da09cfd6719ddbc91eb9a5d508b9a46bd"
